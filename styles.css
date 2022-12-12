@@ -71,12 +71,11 @@ background-position: center;
     font-weight: 100px;
     font-size: 30px;
     line-height: 25px;
-    color: beige;
 }
 
 .bodytext p {
     margin-top: 60px;
-    color: rgb(167, 83, 23);
+    color: rgb(179, 168, 161);
     display: flex;
     text-align: center;
     align-items: center;
