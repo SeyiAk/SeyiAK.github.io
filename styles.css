@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+.banner{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.377)),url(travfigure.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+.navigbar{
+    margin: auto;
+    width: 90%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigbar ul li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin: 50px; 
+}
+
+.navigbar ul li a{
+    text-decoration: solid;
+    color: rgb(167, 83, 23);
+    text-transform: uppercase;
+}
+
+.navigbar ul li::after{
+    content: '';
+    height: 1px;
+    width: 0;
+    background: rgb(167, 83, 23);
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    transition: 0.7s;
+}
+
+.navigbar ul li:hover::after{
+    width: 100%;
+}
+
+.hometext{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(167, 83, 23);
+}
+
+.hometext h1{
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.hometext p{
+    margin: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 25px;
+}
+
+.bodytext p {
+    margin-top: 60px;
+    color: rgb(167, 83, 23);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 150%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.column {
+    float:left;
+    width: 32.5%;
+    padding: 5px;
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.secondrow::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
